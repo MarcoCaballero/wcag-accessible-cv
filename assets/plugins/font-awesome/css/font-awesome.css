@@ -183,11 +183,11 @@
     transform: scale(1, -1);
 }
 
-:root .fa-rotate-90,
-:root .fa-rotate-180,
-:root .fa-rotate-270,
-:root .fa-flip-horizontal,
-:root .fa-flip-vertical {
+ :root .fa-rotate-90,
+ :root .fa-rotate-180,
+ :root .fa-rotate-270,
+ :root .fa-flip-horizontal,
+ :root .fa-flip-vertical {
     filter: none;
 }
 
@@ -222,7 +222,7 @@
 
 
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
-   readers do not read off random characters that represent icons */
+     readers do not read off random characters that represent icons */
 
 .fa-glass:before {
     content: "\f000";
