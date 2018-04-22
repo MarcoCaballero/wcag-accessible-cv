@@ -21,6 +21,23 @@
     padding-left: 7px;
 }
 
+.inline-class .padded-r {
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-right: 3px;
+}
+
+.main-nav-pos a {
+    color: white;
+}
+
+.main-nav-pos i,
+.main-nav-pos span {
+    font-size: 25px;
+    padding: 4px;
+    color: white;
+}
+
 
 /* ======= Base ======= */
 
@@ -62,16 +79,6 @@ a:focus {
 
 p {
     line-height: 1.5;
-}
-
-.main-nav-pos a {
-    color: white;
-}
-
-.main-nav-pos i {
-    font-size: 25px;
-    padding: 4px;
-    color: white;
 }
 
 .wrapper {
