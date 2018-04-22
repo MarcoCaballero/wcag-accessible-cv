@@ -10,6 +10,17 @@
 
 /* styles-6.css */
 
+.inline-class {
+    line-height: 17px;
+    min-width: 100%;
+    display: inline-flex;
+}
+
+.inline-class .padded {
+    padding-top: 7px;
+    padding-left: 7px;
+}
+
 
 /* ======= Base ======= */
 
@@ -53,6 +64,16 @@ p {
     line-height: 1.5;
 }
 
+.main-nav-pos a {
+    color: white;
+}
+
+.main-nav-pos i {
+    font-size: 25px;
+    padding: 4px;
+    color: white;
+}
+
 .wrapper {
     background: #4B6A78;
     max-width: 960px;
@@ -68,7 +89,7 @@ p {
     position: absolute;
     right: 0;
     width: 276px;
-    height: 100%;
+    height: 96.3%;
     min-height: 800px;
     color: #fff;
 }

@@ -30,6 +30,9 @@
 
 <body>
     <main class="wrapper" role="contentinfo">
+        <nav id="main-nav-1" class="main-nav-pos" role="navigation">
+            <i class="fa fa-home" alt="home icon"></i><a href="#main-wrapper-pos">Main Content</a>
+        </nav>
         <div class="sidebar-wrapper">
             <div class="profile-container">
                 <img class="profile" src="assets/img/profile.png" alt="current photography" />
@@ -104,9 +107,13 @@
         </div>
         <!--//sidebar-wrapper-->
 
-        <div class="main-wrapper">
+        <div id="main-wrapper-pos" class="main-wrapper">
             <section class="section summary-section">
-                <h2 class="section-title"><i class="fa fa-user" alt="user profile icon"></i>Career Profile</h2>
+                <div class="inline-class">
+                    <h2 class="section-title"><i class="fa fa-user" alt="user profile icon"></i>Career Profile</h2>
+                    <a class="padded" alt="go to next" href="#experiences-section-id">Next</a>
+                    <i class="fa  fa-angle-down padded" alt="go to skills &amp; proficiency"></i>
+                </div>
                 <div class="summary">
                     <p>
                         Clean-coder and Craftmanshipper.
@@ -123,9 +130,14 @@
             </section>
             <!--//section-->
 
-            <section class="section experiences-section">
-                <h2 class="section-title"><i class="fa fa-briefcase" alt="briefcase icon"></i>Experiences</h2>
-
+            <section id="experiences-section-id" class="section experiences-section">
+                <div class="inline-class">
+                    <h2 class="section-title">
+                        <i class="fa fa-briefcase" alt="briefcase icon"></i> Experiences
+                    </h2>
+                    <a class="padded" alt="go to next" href="#skills-proficiency-id">Next</a>
+                    <i class="fa  fa-angle-down padded" alt="go to skills &amp; proficiency"></i>
+                </div>
                 <div class="item">
                     <div class="meta">
                         <div class="upper-row">
@@ -219,7 +231,7 @@
             </section>
             <!--//section-->
 
-            <section class="skills-section section">
+            <section id="skills-proficiency-id" class="skills-section section">
                 <h2 class="section-title"><i class="fa fa-rocket" alt="rocket icon"></i>Skills &amp; Proficiency</h2>
                 <div class="skillset">
                     <div class="item">
@@ -309,6 +321,9 @@
 
         </div>
         <!--//main-body-->
+        <nav id="main-nav-2" class="main-nav-pos" role="navigation">
+            <i class="fa fa-home" alt="home icon"></i><a href="#main-wrapper-pos">Main Content</a>
+        </nav>
     </main>
 
     <footer class="footer" role="banner">
