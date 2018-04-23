@@ -10,6 +10,33 @@
 
 /* styles-6.css */
 
+.main-nav-pos {
+    margin: 0;
+    padding: 0;
+    height: 46px;
+}
+
+.main-nav-pos a {
+    color: white;
+}
+
+.main-nav-pos i,
+.main-nav-pos span {
+    font-size: 25px;
+    padding: 4px;
+    color: white;
+}
+
+ul.nav-list {
+    list-style-type: none;
+    min-height: 100%;
+    background: #4b6a78;
+}
+
+#content h1 {
+    margin-bottom: 73px;
+}
+
 .qr {
     height: 150px
 }
@@ -26,20 +53,28 @@
 }
 
 .inline-class .padded-r {
+    margin-left: -40px;
     padding-top: 7px;
-    padding-left: 7px;
-    padding-right: 3px;
+    padding-left: 12px;
+    margin-right: 57px;
+    padding-right: 17px;
+    min-width: 47px;
 }
 
-.main-nav-pos a {
-    color: white;
+.inline-class .padded-r:hover,
+.inline-class .padded-r:active,
+.inline-class .padded-r:focus {
+    background: white;
+    color: black;
 }
 
-.main-nav-pos i,
-.main-nav-pos span {
-    font-size: 25px;
-    padding: 4px;
-    color: white;
+.inline-class .padded-r:hover span,
+.inline-class .padded-r:active span,
+.inline-class .padded-r:focus span,
+.inline-class .padded-r:hover a,
+.inline-class .padded-r:active a,
+.inline-class .padded-r:focus a {
+    color: black;
 }
 
 
@@ -100,7 +135,7 @@ p {
     position: absolute;
     right: 0;
     width: 276px;
-    height: 96.3%;
+    height: 97.6%;
     min-height: 800px;
     color: #fff;
 }
